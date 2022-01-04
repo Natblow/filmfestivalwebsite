@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <div class="container">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+
+  
+    <!-- Modal Form -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="registerModalLabel">Claim Your Spot Now!</h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <div class="form-row">
+            <div class="col-6">
+            <label for="recipient-first-name" class="col-form-label">First Name:</label>
+            <input type="text" class="form-control" placeholder="First name" id="recipient-first-name">
+            </div>
+            
+            <div class="col-6">
+            <label for="recipient-last-name" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" placeholder="Last name" id="recipient-last-name">
+            </div>
+            </div>
+            
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email Address:</label>
+            <input type = "email" class="form-control" id="recipient-email" aria-describedby="emailHelp" placeholder="Enter email"></input>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thankYouModal" data-dismiss='modal'id = register-button-form >Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Thank You Modal -->
+<div class="modal" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="thankYouModalLabel"> <center>Thank You !</center> </h1>
+        
+      </div>
+      <div class="modal-body">
+        <center>Follow us on social media :</br>
+      <div class = row >
+        <div class = col-lg-4> 
+          <picture id = logos>
+  <a href = "https://www.facebook.com"><img src="https://i.ibb.co/BZJ8Yq2/fb-logo2.png" class="img" id = facebook alt="Facebook" width="55" height="55" >                 </a>
+          </picture>      
+      </div>
+        
+      <div class = col-lg-4> 
+        <picture id = logos>
+ <a href = "https://www.instagram.com"><img src="https://i.ibb.co/BfrQCxL/insta-logo2.png" class="img" id = instagram alt="Instagram" width="55" height="55" > 
+        </a>
+        </picture> 
+        </div>
+        
+      <div class = col-lg-4> 
+        <picture id = logos>
+ <a href = "https://www.twitter.com"><img src="https://i.ibb.co/yYXYqxt/twitter-logo2.png" class="img" id = twitter alt="Twitter" width="55" height="55" ></a>
+        </picture> 
+        </div>
+        
+      </div> </center>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id = register-button-form>Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+   <nav class="nav navbar sticky-top navbar-light bg-light justify-content-center">
+    
+    <a class="navbar-brand" href="https://www.facebook.com/" id = socialMed>
+<img src="https://i.ibb.co/BZJ8Yq2/fb-logo2.png" 
+	width="60" height="60" alt="facebook"></a>
+ 
+    
+    <a class="navbar-brand" href="https://www.instagram.com/" id = socialMed>
+<img src="https://i.ibb.co/BfrQCxL/insta-logo2.png" 
+	width="60" height="60" alt="instagram">
+</a>
+  
+    <a class="navbar-brand" href="https://www.twitter.com/" id = socialMed>
+<img src="https://i.ibb.co/yYXYqxt/twitter-logo2.png" 
+	width="60" height="60" alt="instagram">
+</a>
+
+</nav>
+
+  
+    <title>Watch it Outside</title>
+  </head>
+  <body>
+   <div class="jumbotron text-center" id = header>
+  <h1>Watch it Outside :</h1>
+  <p>Boston Edition!</p>
+</div>
+
+
+  <div class="row">
+    <div class="col-lg-6">
+     <p id = intro-paragraph> Watch  Your Favorites Movies Outside with your friends & family!
+
+        4 Days <b>FREE</b> Event  
+        from <b>August 5th to 8th</b> at </br>Boston Public Garden <br/>
+
+        <b>Limited Spots Available!</b>
+
+
+    </p>
+    </div>
+    <div class="col-lg-6">
+      <picture>
+ <img src="https://i.ibb.co/GRZ86dY/moviefestival-colors.jpg" class="img-fluid" alt="Event Outside" width="544" height="391">
+</picture>
+    </div>
+
+  </div> 
+    <center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registerModal" data-whatever="" id = register-button>Pre-Register Now</button></center><br>
+    
+    <center><div class = background-secondary>
+      
+      
+  <div class = col-xl-12>
+    
+    
+      <P id = featured-title>Featured</P>
+    <div class="container">
+      
+        <div class="row">
+          
+      <div class = col-sm-4> <picture id = logos>
+ <img src="https://i.ibb.co/bQwc0yq/bostonglobe.png" class="img-fluid" id = boston-globe-logo alt="The Boston Globe"  > 
+</picture> 
+      </div>
+          
+      <div class = col-4><picture id = logos>
+ <img src="https://i.ibb.co/TMv4p3f/boston-news3.png" class="img-fluid" id = boston-news-logo alt="The Boston News" width="75" height="72">
+</picture> 
+      </div>
+          
+       <div class = col-4><picture id = logos>
+ <img src="https://i.ibb.co/1QMpHV3/NBC-Boston-logo.png" class="img-fluid" id = boston-nbc-logo alt="NBC Boston" width="146" height="72">
+</picture>
+      </div>
+          
+      </div>
+      
+      </div>
+    
+    
+      </div>
+      
+      
+      </div>
+      
+<div class="row justify-content-center">
+      <div class="led-box">
+        <div class="led-news"></div> </div><h1><u>News & Announcements</u></h1>
+      </div>
+      
+      </center>
+      <div class="row">
+      <div class="col-lg-6">
+        <article id = news-paragraph>
+          <h2>Event during COVID</h2>
+There are many things to love about summer in Boston, and one of the activities we’re most excited about is the outdoor movie nights taking places all over the city. During this summer’s COVID-cautious reality, drive-in viewing has become the go-to — often the only — way to see a movie, concert or sports event in public. Even without the usual Hollywood summer blockbusters (many releases have been pushed until indoor theaters can reopen), the region’s established drive-ins and a plethora of pop-ups have stepped in to fill the void. 
+        </article>
+      </div>
+      <div class="col-lg-6">
+        <picture>
+ <img src="https://i.ibb.co/JqB2KNJ/moviefestival2-colors.jpg" class="img-fluid" alt="Event Outside 2" width="544" height="391">
+</picture>
+      </div>
+   </div>
+   
+    <center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registerModal" data-whatever="" id = register-button>Pre-Register Now</button></center>
+    
+     <center><div class = background-secondary>
+       <h1 id = movie-header>Movies For All Ages</h1>
+       </div>
+       </center>
+    
+  <center>
+    
+  <div class="row">
+    <div class= "col-lg-6 img-hover">
+      <picture id = movie-posters>
+  <img class= "img-responsive img-border" src="https://i.ibb.co/Wg1vfYn/tintin.jpg" alt="Tintin" width="350" height="544"> 
+      </picture>
+        </div>
+    
+    <div class="col-lg-6 img-hover">
+      <picture id = movie-posters>
+ <img class= "img-responsive img-border" src="https://i.ibb.co/Zf5595k/paddington-2.jpg" alt="Paddigton2" width="350" height="544">
+</picture>
+    </div>
+  </div>
+      <div class= "row">
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/pvdZ0yz/the-call-of-the-wild.jpg" alt="The Call Of The Wild" width="256" height="401"></picture>
+    </div>
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/YTGBz1d/into-the-spiderverse.jpg" alt="Spider-man : Into the spider-verse" width="256" height="401"></picture>
+    </div>
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/NCJy3qB/fantastic-beasts.jpg" alt="Fantastic Beasts" width="256" height="401"></picture>
+    </div>
+    </div>
+  
+      
+      <div class="row">
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/mCfd3KL/ip-man4.jpg" alt="Ip Man 4" width="256" height="401"></picture>
+    </div>
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/MBTJpB6/jumanji-next-level.jpg" alt="Jumanji" width="256" height="401"></picture>
+    </div>
+    <div class="col-lg-4 img-hover">
+      <picture id = movie-posters><img class= "img-responsive img-border" src="https://i.ibb.co/YThjMFb/shazam.jpg" alt="Shazam!" width="256" height="401"></picture>
+    </div>
+  </div>
+      <center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registerModal" data-whatever="" id = register-button>Pre-Register Now</button></center>
+    </center>
+    
+    <div class = "background-tertiary">
+       <h1 id = schedule-header>Schedule</h1>
+      <p id = "dates-paragraph">
+        
+        <div class="row">
+          <div class="col-lg-6" id = dates-paragraph>
+        <b>August 5th :</b></br>
+      <b>6pm :</b> The Adventures of Tintin</br>
+    <b>8pm :</b> Fantastic Beasts</br>
+  </br>
+</div>
+    
+       <div class="col-lg-6" id = dates-paragraph>
+<b>August 6th :</b></br>
+<b>6pm :</b> Paddington</br>
+<b>8pm :</b> Ip Man 4</br>
+</br>   </div>
+</div>
+        <div class="row">
+         <div class="col-lg-6" id = dates-paragraph>
+<b>August 8th :</b> </br>
+<b>6pm :</b> Spiderman - Into the Spider-Verse</br>
+<b>8pm :</b> Jumanji</br>
+</br> </div>
+        <div class="col-lg-6" id = dates-paragraph>
+<b>August 9th :</b></br>
+<b>6pm :</b> Shazam!</br>
+<b>8pm :</b> The Call of The Wild
+        </div>
+</div>
+      </p>
+</div>
+      
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+
+
+<footer>
+  <div class = footer-splitter>. </div>
+  <div class = footer>
+  <center>
+  <div class="row align-items-center">
+    <div class="col-sm-6" id = "footer-link">
+      <a href = "https://www.boston.com/"style="color:#19181b;"> Boston News</a>
+    </div>
+    <div class="col-sm-6" id = "footer-link">
+      <a href = "https://friendsofthepublicgarden.org/"style="color:#19181b;">Boston Public Garden</a>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+      <p id = copyright>Copyright © 2021 Watch It Outside Events Co.</p>
+    </div>
+      </center>
+</div>
+    
+  </div>
+</footer>
+ 
+    
+</div> 
+</html>

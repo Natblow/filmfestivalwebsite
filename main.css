@@ -1,0 +1,379 @@
+/*************** ALL BACKGROUNDS ***************/
+
+.jumbotron {
+  /* Watch it Outside : Boston Edition */
+background: #2E8B57;
+position: relative;
+font-family: Sahitya;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 104%;
+/* or 50px */
+text-align: center;
+color: #FFFFFF;
+}
+.jumbotron p {
+ position: relative;
+font-family: Sahitya;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 50%;
+/* or 50px */
+text-align: center;
+color: #FFFFFF;
+}
+#header {
+  /* Giving Orange Color to Jumbotron area*/
+  background:#ffd69c;
+}
+
+.background-secondary {
+ 
+position: relative;
+width: full;
+height: 184px;
+left: 2px;
+top: 2px;
+color: #FFFFFF;
+margin:2px;
+background-color: #ffbe63;
+border-radius : 7px;
+}
+
+.background-tertiary {
+ /* Background color for the schedule*/
+position: relative;
+width: full;
+color: #FFFFFF;
+background-color: #FF8C00;
+border-radius : 7px;
+}
+/******************************************/
+
+/*Bootstrap Grid Adjustements*/
+.row {
+  position: center;
+  margin: 59px;
+}
+.col-lg-6 {
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+.col-lg-4 {
+  margin-top: 8px ;
+  padding: 18px;
+}
+
+/*Bootstrap navigation menu adjustements*/
+.navbar-brand {
+  padding: 18px;
+}
+
+/*************ALL TITLES EXCEPT HEADER **********/
+#news-header {
+  position: center;
+}
+
+#movie-header {
+  position: center;
+  padding: 4%;
+  margin: 4%;
+  font-family: Sahitya;
+  font-style: normal;
+  font-size: 72px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#schedule-header {
+  position: center;
+  font-size: 72px;
+  font-family: Sahitya;
+  font-style: normal;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0px;
+}
+
+/************************************/
+
+/******************* ALL PARAGRAPHS ****************/
+#intro-paragraph {
+  position: center;
+  margin-top: 18px;
+  font-family: Sahitya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 200%;
+  /* or 34px */
+  text-align: center;
+  color: #222226;
+}
+
+#news-paragraph {
+position: center;
+font-family: Sahitya;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 200%;
+/* or 34px */
+text-align: center;
+color: #19181b;
+}
+.led-box {
+  height: 30px;
+  width: auto;
+  margin:10px 0px 0px 0px;
+  padding:5px 18px 0px 0px;
+}
+.led-news /*Flashing Red light for the news paragraph*/ {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #FFBE63;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkOrange 0.5s infinite;
+  -moz-animation: blinkOrange 0.5s infinite;
+  -ms-animation: blinkOrange 0.5s infinite;
+  -o-animation: blinkOrange 0.5s infinite;
+  animation: blinkOrange 0.5s infinite;
+}
+
+@-webkit-keyframes blinkOrange {
+    from { background-color: #FFBE63; }
+    50% { background-color: #FFA500; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FF8C00 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #FFBE63; }
+}
+@-moz-keyframes blinkOrange {
+    from { background-color: #FFBE63; }
+    50% { background-color: #FFA500; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FF8C00 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #FFBE63; }
+}
+@-ms-keyframes blinkOrange {
+    from { background-color: #FFBE63; }
+    50% { background-color: #FFA500; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FF8C00 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #FFBE63; }
+}
+@-o-keyframes blinkOrange {
+    from { background-color: #FFBE63; }
+    50% { background-color: #FFA500; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FF8C00 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #FFBE63; }
+}
+@keyframes blinkOrange {
+    from { background-color: #FFBE63; }
+    50% { background-color: #FFA500; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FF8C00 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #FFBE63; }
+}
+
+#dates-paragraph {
+  font-family: Sahitya;
+  margin-top: -15px; 
+  padding-left: 10%;
+  text-align: left;
+}
+/******************* ALL BUTTONS ***********************/
+
+#register-button{
+margin: 5%;
+width: full;
+height: 14%;
+background: #FFA500;
+border: #1E90FF ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* Police */
+font-size: 38px;
+text-align: center;
+ transition-duration: 0.3s;
+}
+
+#register-button:hover {
+  background-color: #FF8C00;
+  -webkit-box-shadow: 3px 3px 15px 6px rgba(21,68,137,1);
+  -moz-box-shadow: 3px 3px 15px 6px rgba(21,68,137,1);
+  box-shadow: 3px 3px 15px 3px rgba(173,96,2,1);
+}
+
+#register-button-form {
+  background: #FF8C00;
+}
+/****************************************************/
+
+/***** FEATURED AREA WITH LOGOS ****/
+
+#featured-title {
+width: 131px;
+height: 26px;
+padding-top: 25px;
+font-family: Sahitya;
+font-color: #0E2C5A;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 73.5%;
+/* or 26px */
+text-align: center;
+color: #FFFFFF;
+}
+/******************************/
+
+/******** ALL MOVIES POSTERS ********/
+/******** ALL MOVIES POSTERS ********/
+/******** ALL MOVIES POSTERS ********/
+#movie-posters {
+  position: relative;
+  
+  border-color: #FFA500;
+  border-width: 200px;
+  
+  -webkit-transition: all .3s ease; /* Safari and Chrome */
+  	-moz-transition: all .3s ease; /* Firefox */
+  	-o-transition: all .3s ease; /* IE 9 */
+  	-ms-transition: all .3s ease; /* Opera */
+  	transition-duration: all .3s ease;
+}
+.img-border {
+  border: 5px solid  #FFA500;
+}
+/******************************/
+
+/*********FOOTER AREA***********/
+.footer-splitter {
+margin-top: 5%;
+width: full;
+height: 0px;
+border: 1px solid #FFA500;
+}
+
+.footer {
+  position : center ;
+  font-family: Sahitya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 84.8%;
+  /* or 20px */
+  color: #000000;
+}
+
+#copyright {
+  font-family: Sahitya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding-right: -10%;
+  /* or 20px */
+  color: #000000;
+}
+/****************************/
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and upn) */
+@media (max-width: 576px) {
+  /** HEADER **/
+  .jumbotron h1 {
+    font-size: 34px;
+  }
+  
+  .jumbotron p {
+    font-size: 44px;
+  }
+  /* Bootstrap column adjustements */
+  .col-4 {
+  margin-top: 0.5rem;
+}
+  /* Schedule Area */
+  #schedule-header {
+    font-size : 52px;
+  }
+  .background-tertiary {
+    height: 685px;
+  }
+  /* Paragraphs */
+  #dates-paragraph {
+    font-size: 24px;
+  }
+  /* Title "movies for all ages"*/
+  #movie-header {
+    font-size : 49px;
+  }
+  
+  /* Boston Media Logos */
+  
+  #boston-news-logo {
+    width: 55px;
+    height: 52px;
+  }
+  #boston-nbc-logo {
+    margin-left: 6rem;
+  }
+  #boston-globe-logo {
+    width: 216px;
+    height: 31px;
+    margin-top: -3rem;
+  }
+  /*Footer*/
+  #footer-link {
+    padding: 10px;
+  }
+  
+  #copyright {
+    font-size: 15px;
+    padding-right : -10%;
+  }
+  
+ /* Button */ 
+  #register-button{
+margin: 5%;
+width: full;
+height: 14%;
+background: #FFA500;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* Police */
+font-size: 28px;
+text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  #boston-globe-logo {
+    padding: -200px;
+  }
+}
+  
+  @media (min-width: 768px){
+    #movie-header {
+    font-size : 62px;
+  }
+
+    /*Hover Effect */
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.08); /* Safari and Chrome */
+    -moz-transform:scale(1.08); /* Firefox */
+    -ms-transform:scale(1.08); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.08); /* Opera */
+    transform:translatZ(0) scale(1.08);
+}
+  }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+  .led-box {
+  visibility: hidden;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .background-tertiary {
+    height: 492px;
+  }
+     }
